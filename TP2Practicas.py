@@ -51,7 +51,16 @@ if opcion == 5:
 		print ("La letra ingresada es consonante")
 
 
-
+if opcion == 6:
+	L1 = list (input ("Ingrese una lista"))
+	i = len(L1)
+	j = 0 
+	suma = 0
+	while (j < i):
+		suma = suma + L1[j]
+		j=j+1
+	print ("la suma es: ", suma)	
+		
 
 
 	
