@@ -59,7 +59,18 @@ if opcion == 6:
 	while (j < i):
 		suma = suma + L1[j]
 		j=j+1
-	print ("la suma es: ", suma)	
+	print ("la suma es: ", suma)
+
+if opcion == 7:
+	L1 = list (input ("Ingrese una lista"))
+	i = len(L1)
+	j = 0 
+	multiplicacion= 1
+	while (j < i):
+		multiplicacion = multiplicacion*L1[j]
+		j=j+1
+	print ("la suma es: ", multiplicacion)
+		
 		
 
 
